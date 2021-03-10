@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, #d92027,#ff9234 );
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container{
+    background: #ffff;
+    max-width: 600px;
+    min-height: 60vh;
+    padding: 3rem;
+    border-radius: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+fieldset{
+    border: 0;
+}
+
+.titulo h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.titulo p{
+    text-align: center;
+}
+
+.campo label{
+    display: block;
+    font-weight: bolder;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input{
+    border-radius: 8px;
+    border: 1px solid #c8c6a7;
+    height: 2em;
+    width: 15em;
+    display: block;
+    box-shadow: 2px 2px 2px rgba(0,0,0.2);
+    outline: none;
+    padding: 0.5em;
+}
+
+.web label{
+    font-weight: bolder;
+}
+
+.web input{
+    width: 1em;
+    height: 1em;
+    flex-direction: column;
+    display: block;
+    float: left;
+}
+
+.senioridades label{
+    font-weight: bolder;
+}
+
+.senioridades select {
+    border-radius: 5px;
+    border: 1px solid #c8c6a7;
+    height: 2em;
+    width: 7em;
+   display: block;
+   cursor: pointer;
+   outline: none;
+   box-shadow: 2px 2px 2px rgba(0,0,0.2);
+   background-color: #ffff;
+}
+
+fieldset.grupo .tecnologias input{
+    cursor: pointer;
+}
+.experiencia label{
+    font-weight: bolder;
+}
+
+.experiencia textarea{
+    border-radius: 5px;
+    border: 1px solid #c8c6a7;
+    height: 8em;
+    width: 35em; 
+    box-shadow: 2px 2px 2px rgba(0,0,0.2);
+    outline: none;  
+    padding: 0.5em;  
+}
+
+form input[type="submit"]{
+    height: 2em;
+    width: 15em;
+    border: 1px solid #c8c6a7;
+    border-radius: 5px;
+    position:absolute;
+    left: 42%;
+    background: linear-gradient(to left, #d92027,#ff9234);
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 2px rgba(0,0,0.2);
+    outline: none;
+}
+
+form input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #d92027,#ff9234);
+}
+
+
+
+
+
